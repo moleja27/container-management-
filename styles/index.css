@@ -4,19 +4,6 @@
 .father{
     background: #370617;
     width: 1152px;
-    height: 1123px;
-    position: relative;
-    display: flex;
-
-}
-
-/*  columns */
-
-.column-1 {
-    margin-top: -20px;
-    margin-left: -160px;
-    margin-right: 4px;
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     width: 37%;
