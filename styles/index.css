@@ -1,161 +1,139 @@
 
 /* parent container */
 
-.father{
+.container-father{
     background: #370617;
     width: 1152px;
     display: flex;
     flex-wrap: wrap;
-    width: 37%;
-    background: #370617;
-    flex-direction: column;
-    top: 57px;
-    right: -309px;
-    height: 1080px;
+
 }
 
-.column-2 {
-    margin-top: -20px;
-    margin-left: -26px;
-    margin-right: -27px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    width: 37%;
-    background: #370617;
-    flex-direction: column;
-    top: 57px;
-    right: -309px;
-    height: 1080px;
-}
 
-/*  first block */
-
-.s-1{
+.yellow-container-1, .yellow-container-2, .yellow-container-3, .yellow-container-4, .yellow-container-5, .yellow-container-6{
     background: #F48C06;
     height: 160px;
-    margin: 20px;
-    margin-bottom: 5px;
+    width: 468px;
+    margin:20px;
     border-radius: 10px;
-    position: relative;
     display: flex;
-    align-items: flex-end;
- 
-    
+   
 }  
+
+.yellow-container-1 {
+    align-items: flex-end;
+
+
+}
+
+.yellow-container-2 {
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.yellow-container-3 {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.yellow-container-4 {
+    align-items: baseline;
+    justify-content: space-between;
+    align-self: flex-end;
+
+}
+
+.yellow-container-5 {
+    justify-content: space-evenly;
+}
+ 
+.yellow-container-6 {
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 
 /*  rectangle 1*/
 
-.g-1-1{
+.box-red-1{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
 
 /*  rectangle 2*/
-.g-1-2{
+.box-red-2{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
 
 /*  rectangle 3*/
-.g-1-3{
+.box-red-3{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
 
-/*  second block */
-
-.s-2{
-    background: #F48C06;
-    height: 160px;
-    margin: 20px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 /*  rectangle 4*/
-.g-2-1{
+.box-red-4{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:120px;
     margin: 10px;
     border-radius: 10px;
 }
 
 /*  rectangle 5*/
-.g-2-2{
+.box-red-5{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:120px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 9px;
 }
 
 /*  rectangle 6*/
-.g-2-3{
+.box-red-6{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:120px;
     margin: 10px;
     border-radius: 10px;
-}
-
-/*  third block */
-
-.s-3{
-    background: #F48C06;
-    height: 160px;
-    margin: 20px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    
 }
 
 /*  rectangle 7*/
-.g-3-1{
+.box-red-7{
     background: #9D0208;
-    font-size: 12px;
     width: 78px;
-    height:120px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
 
-   /*  rectangle 8*/
-.g-3-2{
+
+/*  rectangle 8*/
+.box-red-8{
     background: #9D0208;
-    font-size: 12px;
     width: 78px;
-    height:64px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
 
     /*  rectangle 9*/
-.g-3-3{
+.box-red-9{
     background: #9D0208;
-    font-size: 12px;
     width: 78px;
-    height:120px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -164,7 +142,8 @@
     margin: 10px;
     color:white;
     font-family: 'Roboto', sans-serif;
-    margin-top: 35px;
+    margin-top: 20px;
+    font-size: 12px;
 
 }
 
@@ -173,134 +152,99 @@
     margin: 10px;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
-/*  fourth block */
-
-.s-4{
-    background: #F48C06;
-    height: 160px;
-    margin: 20px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
  
    /*  rectangle 10*/
-.g-4-1{
+.box-red-10{
     background: #9D0208;
     width: 78px;
-    height:120px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
 
 /*  rectangle 11*/
-.g-4-2{
+.box-red-11{
     background: #9D0208;
     width: 78px;
-    height:120px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
 
 /*  rectangle 12*/
-.g-4-3{
+.box-red-12{
     background: #9D0208;
     width: 78px;
-    height:120px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
 }
 
-/*  fith block */
-.s-5{
-    background: #F48C06;
-    height: 160px;
-    margin: 20px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-}
 
 /*  rectangle 13*/
-.g-5-1{
+.box-red-13{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:120px;
     margin: 10px;
     border-radius: 10px;
 }
 
 /*  rectangle 14*/
-.g-5-2{
+.box-red-14{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
+    flex-basis: 20px; /* Establece el tamaño inicial más pequeño */
+    flex-shrink: 1; /* Permitir que el elemento se encoja*/
 }
 
 /*  rectangle 15*/
-.g-5-3{
+.box-red-15{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:120px;
     margin: 10px;
     border-radius: 10px;
     align-self: flex-end;
     justify-content: space-between;
 }
 
-
-/*  sixth block */
-
-  .s-6{
-    background: #F48C06;
-    height: 160px;
-    margin: 20px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-} 
-
-
 /*  rectangle 16*/
-.g-6-1{
+.box-red-16{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
+    flex-wrap:wrap;
 }
 
 /*  rectangle 17*/
-.g-6-2{
+.box-red-17{
     background: #9D0208;
-    width: 156px;
-    height:78px;
+    width: 78px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
+    flex-wrap: nowrap;
 }
 
 /*  rectangle 18*/
-.g-6-3{
+.box-red-18{
     background: #9D0208;
     width: 78px;
-    height:78px;
+    min-height:78px;
     margin: 10px;
     border-radius: 10px;
+    flex-wrap:wrap
 }
+
 
 
 
