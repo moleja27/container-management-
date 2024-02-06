@@ -15,6 +15,8 @@
     height: 160px;
     width: 468px;
     margin:20px;
+    margin-left: 10px;
+    margin-right: 20px;
     border-radius: 10px;
     display: flex;
    
@@ -39,14 +41,16 @@
 }
 
 .yellow-container-4 {
-    align-items: baseline;
+    justify-content: flex-start;
+    align-items: center;
     justify-content: space-between;
-    align-self: flex-end;
+   
 
 }
 
 .yellow-container-5 {
-    justify-content: space-evenly;
+   align-items: baseline;
+   justify-content: center;
 }
  
 .yellow-container-6 {
@@ -172,6 +176,7 @@
     min-height:78px;
     margin: 10px;
     border-radius: 10px;
+    align-self: flex-end;
 }
 
 /*  rectangle 12*/
@@ -198,10 +203,11 @@
     background: #9D0208;
     width: 78px;
     min-height:78px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
-    flex-basis: 20px; /* Establece el tamaño inicial más pequeño */
-    flex-shrink: 1; /* Permitir que el elemento se encoja*/
+    flex-basis: 20px; 
+    flex-shrink: 1; 
+    
 }
 
 /*  rectangle 15*/
@@ -211,8 +217,7 @@
     min-height:120px;
     margin: 10px;
     border-radius: 10px;
-    align-self: flex-end;
-    justify-content: space-between;
+
 }
 
 /*  rectangle 16*/
